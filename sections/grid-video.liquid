@@ -1,0 +1,322 @@
+{%- liquid
+  assign bg_color = section.settings.background-color
+  assign columns = section.settings.width
+  assign description = section.settings.description
+  assign heading = section.settings.heading
+  assign heading_type = section.settings.heading-type
+  assign heading_light_text = section.settings.heading-light-text
+  assign light_text = section.settings.light-text
+  assign link_text = section.settings.link-text
+  assign link_url = section.settings.link-url
+  assign mobile_overlay = section.settings.mobile-overlay
+  assign mobile_columns = section.settings.mobile-width
+  assign mobile_display_type = section.settings.mobile-image-display-type
+  assign mobile_aspect_ratio = 100.0 | divided_by: section.settings.mobile-aspect-ratio
+  assign overlay_style = section.settings.overlay-style
+  assign overline = section.settings.overline
+  assign spacing = section.settings.spacing
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign text_style = section.settings.text-style
+  assign top_border = section.settings.top-border
+
+  assign hover_enabled = false
+  if overlay_style == 'hover'
+    assign hover_enabled = true
+  endif
+
+  assign header_text_exists = true
+  if overline == blank and heading == blank and description == blank
+    assign header_text_exists = false
+  endif
+
+  assign footer_text_exists = true
+  if link_text == blank
+    assign footer_text_exists = false
+  endif
+
+  assign full_width = true
+  if spacing
+    assign full_width = false
+  endif
+-%}
+
+<div
+  class="featured-grid--root video-grid"
+  data-section-id="{{ section.id }}"
+  data-background-color="{{ bg_color }}"
+  data-container="section"
+  data-container-width="{{ container_width }}"
+  data-footer-text-exists="{{ footer_text_exists }}"
+  data-header-text-exists="{{ header_text_exists }}"
+  data-hover-enabled="{{ hover_enabled }}"
+  data-mobile-overlay="{{ mobile_overlay }}"
+  data-spacing="{{ spacing }}"
+  data-spacing-above="{{ spacing_above }}"
+  data-spacing-below="{{ spacing_below }}"
+  data-text-position="center"
+  data-top-border="{{ top_border }}"
+>
+  {%- if header_text_exists -%}
+    <div
+      class="featured-grid--header"
+      data-container="block"
+      data-light-text="{{ heading_light_text }}"
+    >
+      {%- unless overline == blank -%}
+        <h4 data-item="overline">
+          {{- overline | escape -}}
+        </h4>
+      {%- endunless -%}
+
+      {%- unless heading == blank -%}
+        <h2 class="featured-grid--heading" data-item="section-heading">
+          {{- heading | escape -}}
+        </h2>
+      {%- endunless -%}
+
+      {%- unless description == blank -%}
+        <h3 class="featured-grid--description" data-item="paragraph">
+          {{- description -}}
+        </h3>
+      {%- endunless -%}
+    </div>
+  {%- endif -%}
+
+  <div class="featured-grid--body" data-light-text="{{ light_text }}">
+    <div
+      class="featured-grid--body--container"
+      data-container="panel"
+      data-columns="{{ columns }}"
+      data-mobile-columns="{{ mobile_columns }}"
+      data-block-spacing="{{ spacing }}"
+      {% unless settings.transitions--other %}
+        data-transition-container="{{ section.id }}"
+        data-transition-type="fade-in"
+        data-transition-cascade="horizontal"
+        data-transition-cascade-interval="200"
+      {% endunless %}
+    >
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign block_link_text = block.settings.link-text
+          assign block_link_url = block.settings.link-url
+          assign title = block.settings.title
+          assign image = block.settings.image
+          assign display_type = block.settings.image-display-type
+          assign mobile_image = block.settings.mobile-image
+          assign x_blocks = block.settings.x-blocks
+          assign y_blocks = block.settings.y-blocks
+
+          if display_type == 'aspect-ratio'
+            assign aspect_ratio = 100.0 | divided_by: block.settings.aspect-ratio
+          else
+            if image == blank or display_type == 'fill'
+              assign aspect_ratio = 1.0
+              if x_blocks == '2' and y_blocks == '1'
+                assign aspect_ratio = 2.0
+              elsif x_blocks == '2' and y_blocks == '2'
+                assign aspect_ratio = 0.5
+              endif
+            else
+              assign aspect_ratio = image.aspect_ratio
+            endif
+          endif
+        -%}
+
+        <div
+          class="featured-grid--item"
+          data-container="block"
+          data-wide="{% if x_blocks == "2" %}true{% else %}false{% endif %}"
+          data-tall="{% if y_blocks == "2" %}true{% else %}false{% endif %}"
+          data-display-type="{{ display_type }}"
+          {% unless settings.transitions--other %}
+            data-transition-item="{{ section.id }}"
+          {% endunless %}
+          {{ block.shopify_attributes }}
+        >         
+
+          <div class="featured-grid--item--container">
+            {%-
+                render 'featured-video',
+                aspect_ratio: block.settings.aspect-ratio,
+                autoplay: section.settings.autoplay,
+                button_text: section.settings.button-text,
+                button_url: section.settings.button-url,
+                description: section.settings.description,
+                display_type: block.settings.video-display-type,
+                id: block.id,
+                mobile_aspect_ratio: block.settings.aspect-ratio,
+                mobile_display_type: section.settings.mobile-image-display-type,
+                mobile_text_alignment: section.settings.mobile-text-alignment,
+                mobile_thumbnail: section.settings.mobile-thumbnail,
+                mobile_hide_description: section.settings.mobile-hide-description,
+                overline: section.settings.overline,
+                overlay_style: section.settings.overlay-style,
+                play_button_style: section.settings.play-button-style,
+                thumbnail: block.settings.image,
+                video_upload: block.settings.video-upload,
+                video_url: block.settings.video-url
+            -%}           
+          </div>
+        </div>
+
+      {%- endfor -%}
+    </div>
+  </div>
+
+  {%- if footer_text_exists -%}
+    <div class="featured-grid--footer" data-container="panel" data-light-text="{{ light_text }}">
+      <div class="featured-grid--footer--block" data-container="block">
+        <a
+          class="featured-grid--footer--button"
+          href="{{ link_url }}"
+          data-text="{{- link_text -}}"
+          data-item="{{ settings.buttons--style }}"
+          {% unless settings.transitions--buttons %}
+            data-transition-button
+          {% endunless %}
+        >
+          <div class="featured-grid--footer--button-container">
+            {{- link_text -}}
+          </div>
+        </a>
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Video Grids",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General layout"
+    },
+    {
+      "id": "top-border",
+      "label": "Top border",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "id": "spacing-above",
+      "label": "Spacing above",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "spacing-below",
+      "label": "Spacing below",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "background-color",
+      "label": "Background color",
+      "type": "select",
+      "options": [
+        {
+          "label": "Transparent",
+          "value": "none"
+        },
+        {
+          "label": "Light",
+          "value": "light"
+        },
+        {
+          "label": "Dark",
+          "value": "dark"
+        },
+        {
+          "label": "Accent 1",
+          "value": "accent-1"
+        },
+        {
+          "label": "Accent 2",
+          "value": "accent-2"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "id": "width",
+      "label": "Blocks per row",
+      "type": "range",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "id": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Grid with overlay"
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "id": "mobile-width",
+      "label": "Blocks per row for small devices",
+      "type": "radio",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+            "type": "video",
+            "id": "video-upload",
+            "label": "Video upload",
+            "info": "To load videos as quickly as possible, upload a file instead of using external URLs."
+        },
+        {
+            "type": "video_url",
+            "id": "video-url",
+            "label": "Video URL",
+            "accept": ["youtube", "vimeo"]
+        },
+        {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Thumbnail",
+        "info": "1500 x 800px recommended"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Grids",
+      "blocks": [
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["aside"]
+  }
+}
+{% endschema %}

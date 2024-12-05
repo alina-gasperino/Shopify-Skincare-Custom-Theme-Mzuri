@@ -1,0 +1,875 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "text-width": "medium",
+            "text-horizontal-alignment": "left",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/MLG_0258.jpg",
+            "overline": "",
+            "title": "You Deserve Radiant Skin and Incredible Hair!",
+            "description": "<h6>- All organic solutions from the Heart of Africa!<\/h6>",
+            "link-url": "https:\/\/mzuri-cosmetics-usa.myshopify.com\/collections\/all",
+            "link-text": "SHOP NOW",
+            "mobile-image": "shopify:\/\/shop_images\/MLG_0258_1_2.jpg",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": true
+          }
+        },
+        "image_HCcHbM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "medium",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/1724684852786.jpg",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": "Shop now",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": false
+          }
+        },
+        "image_rLcy4K": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "medium",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": false
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "large",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": "",
+            "mobile-text-alignment": "bottom",
+            "mobile-hide-description": true
+          }
+        },
+        "image_LDCYM3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "medium",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/MLG_0181_1.jpg",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": "",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": false
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "large",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/MLG_0030_ccc1.png",
+            "overline": "Nurtured by Nature",
+            "title": "",
+            "description": "<h3>Glow Naturally, Shine Effortlessly.<\/h3>",
+            "link-url": "\/",
+            "link-text": "",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": false
+          }
+        },
+        "image_GWjU4e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-width": "medium",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify:\/\/shop_images\/MZUR-OCT181_ccc.jpg",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": "",
+            "mobile-text-alignment": "center",
+            "mobile-hide-description": false
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "image_HCcHbM",
+        "image_rLcy4K",
+        "slide-1",
+        "image_LDCYM3",
+        "slide-2",
+        "image_GWjU4e"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "arrows-enabled": true,
+        "blocks_per_slide": 1,
+        "background-color": "none",
+        "light-text": true,
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "heading-type": "featured-heading",
+        "image-display-type": "fit-screen",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-bottom",
+        "auto-rotate": true,
+        "rotate-frequency": 10,
+        "transition_type": "fade",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "blocks_per_slide_mobile": "1",
+        "mobile-overlay": true
+      }
+    },
+    "featured_video_WCtmMw": {
+      "type": "featured-video",
+      "custom_css": [
+        ".featured-video--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "text-width": "large",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "heading-type": "section-heading",
+        "autoplay": true,
+        "video-display-type": "aspect-ratio",
+        "aspect-ratio": 46,
+        "play-button-style": "solid",
+        "overlay-style": "darken-bottom",
+        "video-upload": "shopify:\/\/files\/videos\/mzuri_vid.mp4",
+        "video-url": "",
+        "overline": "Glow Naturally,  Shine Effortlessly",
+        "heading": "",
+        "description": "",
+        "button-text": "SHOP NOW",
+        "button-url": "https:\/\/mzuri-cosmetics-usa.myshopify.com\/collections\/all",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center",
+        "mobile-hide-description": false
+      }
+    },
+    "a2243e73-eaf5-4985-8402-eb9b4ed43f1e": {
+      "type": "featured-products",
+      "custom_css": [
+        ".featured-collection--show-more a {font-size: 30px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; margin-top: 20px; background: #ff7600 !important; color: white; border-radius: 10px; border: 2px solid #ff7600 !important; text-decoration: none !important;}",
+        "a {text-decoration: none; text-decoration-color: #ff7600 !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "heading-link": "shopify:\/\/metaobjects\/our_bundles\/our-bundles-dieuccm5",
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1",
+        "product-list": [
+          "copy-of-gift-value-pack-moisturizer-body-wash-2items",
+          "copy-of-gift-value-pack-bodywash-shampoo-conditioner-h-s-body-butter-s-av-lotion-sw-a-5-items",
+          "gift-value-pack-shampoo-conditioner-set-h-s-2-items"
+        ],
+        "heading": "Our Best Sellers",
+        "heading-alignment": "center",
+        "link-url": "shopify:\/\/metaobjects\/our_bundles\/our-bundles-dieuccm5",
+        "link-text": "Shop Now"
+      }
+    },
+    "164016757166a86406": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "dark",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "banner-heading",
+        "text-position": "left",
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": "small",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 86,
+        "overlay-style": "none",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MLG_0539vvv.jpg",
+        "overline": "Embrace Nature's Gift",
+        "title": "Look Beautiful Feel Beautiful",
+        "description": "<h2>Shop Mzuri’s Complete Body & Hair Collection<\/h2>",
+        "link-url": "https:\/\/mzuri-cosmetics-usa.myshopify.com\/products\/copy-of-gift-value-pack-bodywash-shampoo-conditioner-h-s-body-butter-s-av-lotion-sw-a-5-items",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 92,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "16401814158380a11c": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": "large",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 36,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/SHEA.webp",
+        "overline": "",
+        "title": "SHEA BUTTER",
+        "description": "<h3>Our Shea butter is ethically sourced from the heart of Africa, combined with essential oils to enhance your true beauty.<\/h3><h3><\/h3>",
+        "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-avocado",
+        "link-text": "SHOP NOW",
+        "mobile-image": "shopify:\/\/shop_images\/shea-mobile-image.jpg",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "ef31fa12-e7a0-4c66-8567-1cca76a8a029": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/BPI_2826_1.jpg",
+            "title": "ISLAND VANILLA",
+            "description": "",
+            "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-island-vanilla",
+            "link-text": "Shop Now"
+          }
+        },
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/BPI_2830_1.jpg",
+            "title": "ORGANIC JASMINE",
+            "description": "",
+            "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-jasmine",
+            "link-text": "Shop Now"
+          }
+        },
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/BPI_2828_1.jpg",
+            "title": "AVOCADO",
+            "description": "",
+            "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-avocado",
+            "link-text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-0",
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-1",
+        "template--14865991630929__ef31fa12-e7a0-4c66-8567-1cca76a8a029-168670132626cd7253-2"
+      ],
+      "settings": {
+        "heading-link": "https:\/\/mzuricosmetics.com\/pages\/body",
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "block-spacing": true,
+        "background-color": "light",
+        "light-text": false,
+        "container-width": "4",
+        "width": 3,
+        "aspect-ratio": "square",
+        "image-width": 0,
+        "text-alignment": "center",
+        "overline": "",
+        "heading": "Luxury Body Butters",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "1"
+      }
+    },
+    "image_with_text_RUGbVm": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": false,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": "large",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "overlay-style": "none",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/coconut-oil.webp",
+        "overline": "NATURE'S FINEST",
+        "title": "COCONUT OIL",
+        "description": "<h2>Be bold, be confident with the goodness of Coconut oil. The ultimate partner for your body and haircare routine.<\/h2><h5><\/h5><h5> <\/h5>",
+        "link-url": "shopify:\/\/pages\/hair",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 128,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "image_with_text_cbNgBK": {
+      "type": "image-with-text",
+      "custom_css": [
+        "a {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 42,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MLG_0181_1.jpg",
+        "overline": "",
+        "title": "Melanin Rich",
+        "description": "<h3>Transforming the approach to self-care for men focused on personal growth.<\/h3>",
+        "link-url": "shopify:\/\/pages\/body",
+        "link-text": "Shop Now",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "image_with_text_teKUUY": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "large",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/Green_Minimalist_Avocado_Sheet_Mask_Youtube_Thumbnail_1.png",
+        "overline": "",
+        "title": "AVOCADO",
+        "description": "<h3>Discover the magic of avocado for your hair and skin.<\/h3>",
+        "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-avocado",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "text_columns_HVNhtM": {
+      "type": "text-columns",
+      "blocks": {
+        "image_Y9qCwg": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/e1.jpg",
+            "title": "Sustainable Sourcing:",
+            "description": "<p>We prioritize ethical and environmentally friendly practices by responsibly sourcing raw materials from African communities. This supports local economies and preserves natural resources, leaving a positive impact on people and the planet.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_UMQBVN": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/e2.jpg",
+            "title": "Community Impact:",
+            "description": "<p>We extend our efforts beyond skincare, positively impacting rural African communities. Through job creation and preserving traditional practices, we foster sustainable development, uplifting livelihoods where it matters most.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_gVzKNw": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/e3.jpg",
+            "title": "Empowering Women: Our Dedication to Women Empowerment:",
+            "description": "<p>Our commitment to empowering women across Nigeria and other African nations includes sustainable sourcing practices, offering opportunities for women in rural communities to thrive and contribute to their families and societies.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Y9qCwg",
+        "image_UMQBVN",
+        "image_gVzKNw"
+      ],
+      "settings": {
+        "heading-link": "",
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": false,
+        "block-spacing": true,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "width": 3,
+        "aspect-ratio": "square",
+        "image-width": 0,
+        "text-alignment": "center",
+        "overline": "",
+        "heading": "We are Committed to Our Roots",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "1"
+      }
+    },
+    "image_with_text_GctqX3": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "large",
+        "aspect-ratio": 56,
+        "overlay-style": "darken",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/aloe-vera-banner.jpg",
+        "overline": "100% Natural",
+        "title": "ALOE VERA",
+        "description": "<h3>Aloe vera gel pack works wonders on every skin type, whether sensitive, dry, oily, or combination skin. <\/h3>",
+        "link-url": "shopify:\/\/products\/body-lotion-and-moisturizer-pomegranate-aloe-vera",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "featured_text_UjQBK4": {
+      "type": "featured-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "light",
+        "light-text": false,
+        "heading-type": "banner-heading",
+        "container-width": "1",
+        "overline": "",
+        "heading": "FEATURED IN",
+        "description": "",
+        "link-url": "\/",
+        "link-text": ""
+      }
+    },
+    "scrolling_content_97VaHV": {
+      "type": "scrolling-content",
+      "blocks": {
+        "image_KpEXGz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CBS.svg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "image_tAEydY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NBC.svg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "image_HmPkin": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ABC.svg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "image_y3hgfF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fox.svg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KpEXGz",
+        "image_tAEydY",
+        "image_HmPkin",
+        "image_y3hgfF"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "light",
+        "parallax-enabled": false,
+        "overlay-style": "darken-bottom",
+        "light-text": false,
+        "text-size": "section-heading",
+        "animation-direction": "left",
+        "animation-speed": 6,
+        "pause-on-hover": false
+      }
+    },
+    "1710845208c79e9ee9": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_CTAUHX": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 4,
+            "maxwidth": 1920,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_CTAUHX"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "grid_video_pMpgPb": {
+      "type": "grid-video",
+      "blocks": {
+        "video_iAiaDY": {
+          "type": "video",
+          "settings": {
+            "video-upload": "shopify:\/\/files\/videos\/MODEL 6.MP4",
+            "video-url": "",
+            "image": "shopify:\/\/shop_images\/mzuriamazon7957_45ee0d62-dd09-4e4d-85c4-e68a94d0ede0.jpg"
+          }
+        },
+        "video_PjMaC3": {
+          "type": "video",
+          "settings": {
+            "video-upload": "shopify:\/\/files\/videos\/MODEL 7.MP4",
+            "video-url": "",
+            "image": "shopify:\/\/shop_images\/Shea_Butter_is_Luxury_It_protects_and_promotes_healthy_skin_and_hair..png"
+          }
+        },
+        "video_f8GBE9": {
+          "type": "video",
+          "settings": {
+            "video-upload": "shopify:\/\/files\/videos\/MODEL 8.MP4",
+            "video-url": "",
+            "image": "shopify:\/\/shop_images\/mzuri646_a3924481-5d00-4baf-985a-19b45ba9556c.jpg"
+          }
+        },
+        "video_WzU98N": {
+          "type": "video",
+          "settings": {
+            "video-upload": "shopify:\/\/files\/videos\/MODEL 3 (1).MOV",
+            "video-url": "",
+            "image": "shopify:\/\/shop_images\/mzuri658_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_iAiaDY",
+        "video_PjMaC3",
+        "video_f8GBE9",
+        "video_WzU98N"
+      ],
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "width": 4,
+        "heading": "OVER 6,000 FIVE-STAR PRODUCT REVIEWS",
+        "mobile-width": "2"
+      }
+    },
+    "grid-with-overlay": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "overlay-block-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MLG_0472_1_cnew.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "overlay-block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MLG_0327.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "overlay-block-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MLG_0152bv.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "overlay-block-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MLG_0304_Toun.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "overlay-block-0",
+        "overlay-block-1",
+        "overlay-block-3",
+        "overlay-block-2"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "heading-light-text": false,
+        "container-width": "4",
+        "spacing": true,
+        "width": 2,
+        "light-text": false,
+        "text-style": "light-with-overlay",
+        "heading-type": "block-heading",
+        "overlay-style": "darken-bottom",
+        "overline": "",
+        "heading": "JOIN THE MZURI COMMUNITY",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "2",
+        "mobile-overlay": true,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134
+      }
+    },
+    "888c0700-2b7d-4516-8312-8388f1daefac": {
+      "type": "newsletter",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "light",
+        "light-text": false,
+        "overline": "",
+        "heading": "STAY INFORMED",
+        "description": "<p>when you sign up for email and\/or texts for the latest updates, special offers, and more.<\/p>"
+      }
+    },
+    "79cdc2f8-dc2d-4924-bfd4-2f03cdbe0381": {
+      "type": "featured-text",
+      "custom_css": [
+        ".stacked-text--button {font-size: 40px; padding: 30px; margin-top: 20px; background: #ff7600 !important; color: white; border: none; border: none !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "dark",
+        "light-text": true,
+        "heading-type": "section-heading",
+        "container-width": "4",
+        "overline": "Issues or concerns",
+        "heading": "Any questions about our Products",
+        "description": "<p>We are committed to ensuring our customers' satisfaction. Please feel free to reach out to us with any product concerns or issues; your feedback is valuable to us<\/p>",
+        "link-url": "shopify:\/\/pages\/contact",
+        "link-text": "Contact us"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_video_WCtmMw",
+    "a2243e73-eaf5-4985-8402-eb9b4ed43f1e",
+    "164016757166a86406",
+    "16401814158380a11c",
+    "ef31fa12-e7a0-4c66-8567-1cca76a8a029",
+    "image_with_text_RUGbVm",
+    "image_with_text_cbNgBK",
+    "image_with_text_teKUUY",
+    "text_columns_HVNhtM",
+    "image_with_text_GctqX3",
+    "featured_text_UjQBK4",
+    "scrolling_content_97VaHV",
+    "1710845208c79e9ee9",
+    "grid_video_pMpgPb",
+    "grid-with-overlay",
+    "888c0700-2b7d-4516-8312-8388f1daefac",
+    "79cdc2f8-dc2d-4924-bfd4-2f03cdbe0381"
+  ]
+}

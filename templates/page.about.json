@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "16324732604d3e7054": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": "large",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "fit-screen",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MZUR-OCT246_e.jpg_3000x1996_ee85a4c2-69f7-4d0d-afc8-cbad5575d722.png",
+        "overline": "Sourced in Africa - Made in USA",
+        "title": "",
+        "description": "<h2>100% ORGANIC INGREDIENTS<\/h2>",
+        "link-url": "",
+        "link-text": "",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": false,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    },
+    "16324732989269ca2c": {
+      "type": "featured-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "light",
+        "light-text": false,
+        "heading-type": "section-heading",
+        "container-width": "4",
+        "overline": "",
+        "heading": "From Pain to Radiance: MZURI's Journey.",
+        "description": "<h3>Our journey began with a shared struggle – battling dry, itchy skin and scalp conditions. My husband and I were faced with this frustration firsthand and we spent several years searching for natural shea butter moisturizers or lotions, all to no avail. As clinical researchers and driven by this shared frustration, we made the decision to create from something rooted in our heritage—\"Shea butter\" and \"African black soap\", both soothing and healing balms for all hair and skin's needs. <\/h3><h3>The birth of  something extraordinary: MZURI, your body, skin and hair care line that merges nature's purity with scientific precision. MZURI is more than a brand; it's a testament to overcoming our dry and itchy skin agony. Join us in rediscovering the joy of radiant hair and hydrated skin.                                                                  Don't settle for less – let MZURI transform your skin and hair care journey.<\/h3>",
+        "link-url": "\/",
+        "link-text": ""
+      }
+    },
+    "grid_with_overlay_4CXBpL": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "image_nnqCC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Toun101_web.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_nFkcAG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MZURI4145_2df2872f-c390-4bc5-97dc-2eeb0135f4ac.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "At Mzuri, we advocate for fewer ingredients with greater benefits for your hair and skin.  We are committed to crafting premium hair and skincare solutions using 100% organic ingredients. We invite you to join our community and explore the cultural richness of our African heritage, unlocking your confidence and authenticity.~ Toun & Tunde Olawoye",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nnqCC4",
+        "image_nFkcAG"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "heading-light-text": false,
+        "container-width": "5",
+        "spacing": true,
+        "width": 2,
+        "light-text": true,
+        "text-style": "none",
+        "heading-type": "block-heading",
+        "overlay-style": "darken",
+        "overline": "",
+        "heading": "From the Founders",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "1",
+        "mobile-overlay": true,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134
+      }
+    },
+    "grid_with_overlay_ReUcDR": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "image_ATKVNR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "to simplify and elevate your skincare and haircare routines by providing high-quality, organic products that celebrate your natural beauty.",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_brjNUJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MLG_0240_2_c.jpg",
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "image-display-type": "fill",
+            "aspect-ratio": 56,
+            "title": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ATKVNR",
+        "image_brjNUJ"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "heading-light-text": false,
+        "container-width": "5",
+        "spacing": true,
+        "width": 2,
+        "light-text": true,
+        "text-style": "none",
+        "heading-type": "block-heading",
+        "overlay-style": "darken",
+        "overline": "",
+        "heading": "Our Mission",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "1",
+        "mobile-overlay": true,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134
+      }
+    },
+    "image_with_text_8tnLTM": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "large",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "fit-screen",
+        "aspect-ratio": 44,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/model_2.jpg",
+        "overline": "",
+        "title": "Embrace your Melanin Nurture it with Mzuri!",
+        "description": "<h2>100% ORGANIC INGREDIENTS<\/h2>",
+        "link-url": "shopify:\/\/products\/luxury-body-butter-shea-and-avocado",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "text_columns_wkqa88": {
+      "type": "text-columns",
+      "blocks": {
+        "image_64PKre": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/MZUR-OCT323_1.jpg",
+            "title": "Natural Ingredients",
+            "description": "<p>Our organic Shea Butter, African black soap and natural oils are ethically sourced from Africa and made with care in New Jersey.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_eUjkBt": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/mzuri672.jpg",
+            "title": "Committed to Sustainability",
+            "description": "<p>We are committed to environmental responsibility, employing 100% recyclable packaging, sustainable energy practices, and carbon-neutral shipping for a greener future<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "image_QRinD9": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/MZUR-OCT58_ddc798e1-58a1-44e3-88c8-d6ba30b7b4d7.jpg",
+            "title": "Cruelty Free",
+            "description": "<p>We take pride in ensuring our products are cruelty-free, never tested on animals, and are safe for all skin types.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_64PKre",
+        "image_eUjkBt",
+        "image_QRinD9"
+      ],
+      "settings": {
+        "heading-link": "",
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "block-spacing": true,
+        "background-color": "light",
+        "light-text": false,
+        "container-width": "4",
+        "width": 3,
+        "aspect-ratio": "square",
+        "image-width": 200,
+        "text-alignment": "center",
+        "overline": "",
+        "heading": "Why Choose Us",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-width": "1"
+      }
+    },
+    "image_with_text_kD8JUx": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": false,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "right",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/5.jpg",
+        "overline": "NURTURED BY NATURE",
+        "title": "Experience Nature's Touch",
+        "description": "<p>Our bundle is formulated to address the needs of your hair and scalp, to treat, hydrate, and retain moisture, promoting shiny, radiant, and healthy-looking hair.<\/p><p><\/p>",
+        "link-url": "https:\/\/mzuri-cosmetics-usa.myshopify.com\/pages\/hair",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "collapsible_rows_tMG67X": {
+      "type": "collapsible-rows",
+      "blocks": {
+        "collapsible_row_8CTaMp": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "How can I check my order status?",
+            "description": "<p>Please create an account to check your order status.<br\/>Once your order ships, you will receive a shipping notification email that includes tracking information.<\/p>",
+            "page-content": "",
+            "default-open": true
+          }
+        },
+        "collapsible_row_8XytC3": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "When can I expect my order?",
+            "description": "<h4>Express Delivery: (2 Business Days)<\/h4><p>• Orders are typically delivered by the end of the second business day after they are shipped.<br\/>• Delivery to some remote addresses may require up to 2 additional days.<br\/>• See www.ups.com and www.usps.com for additional details.<\/p><h4>Standard Delivery: (6 – 8 Business Days)<\/h4><p>• Orders are typically delivered within 5 – 8 business days for Standard service. Actual delivery time<br\/>depends on shipping distance and may vary.<br\/>• Your order will be shipped after your credit card transaction has been approved and\/or any other<br\/>necessary verification has been completed. To be shipped the same day, your order must be submitted<br\/>and such approval and verifications completed by no later than 1pm Eastern\/10am Central.<br\/>All other orders will be shipped on the day that credit approval and\/or other verifications are<br\/>completed, unless the same takes place after 4pm Eastern\/2pm Pacific, in which case the order will be<br\/>shipped on the following business day.<br\/>• Some locations in Alaska, Hawaii, and remote areas may require additional transit time.<br\/>• See <a href=\"https:\/\/ups.com\/\">www.ups.com<\/a> and <a href=\"https:\/\/www.usps.com\/\">www.usps.com<\/a> for additional details.<\/p><h4>Rushed Delivery: (1 Business Day)<\/h4><p>• Orders are typically delivered by 3pm (Local Time) the next business day after they are shipped.<br\/>Shipments to rural addresses are typically delivered by 6:30 pm (Local Time) the next business day after<br\/>they are shipped.<\/p><p>• Available for shipments to addresses within the 48 contiguous states and to limited addresses in<br\/>Alaska and Hawaii.<br\/>• Your order will be shipped after your credit card transaction has been approved and\/or any other<br\/>necessary verification has been completed. To be shipped the same day, your order must be submitted<br\/>and such approval and verifications completed by no later than 12pm Eastern\/9am Central.<br\/>• See www.ups.com and www.usps.com for additional details.<\/p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible_row_RC8MCB": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "What should I do if I am having trouble placing an order?",
+            "description": "<p>For any technical difficulties you are experiencing with our website, please contact our online call center<br\/>at 1-833-33-MZURI from 9am – 6pm EST Monday – Friday, (except holidays).<\/p>",
+            "page-content": "",
+            "default-open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_8CTaMp",
+        "collapsible_row_8XytC3",
+        "collapsible_row_RC8MCB"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "dark",
+        "light-text": false,
+        "container-width": "1",
+        "heading": "FAQS – Frequently Asked Questions",
+        "heading-alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "16324732604d3e7054",
+    "main",
+    "16324732989269ca2c",
+    "grid_with_overlay_4CXBpL",
+    "grid_with_overlay_ReUcDR",
+    "image_with_text_8tnLTM",
+    "text_columns_wkqa88",
+    "image_with_text_kD8JUx",
+    "collapsible_rows_tMG67X"
+  ]
+}

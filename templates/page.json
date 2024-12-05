@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": false,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "image_with_text_UCWp4R": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "center",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MZURI4161.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "featured_products_fCiAbV": {
+      "type": "featured-products",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "luxury-body-butter-shea-and-avocado",
+          "luxury-body-butter-shea-and-island-vanilla",
+          "luxury-body-butter-shea-and-jasmine",
+          "body-lotion-moisturizer-lavender",
+          "body-lotion-and-moisturizer-pomegranate-aloe-vera",
+          "body-lotion-moisturizer-sweet-almond"
+        ],
+        "heading": "Shop Our Body Collection",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "featured_products_kcWVwp": {
+      "type": "featured-products",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "real-luxury-body-wash-natural-african-soap-organic-coconut-oil-wild-coronado-cherry",
+          "real-luxury-body-wash-natural-african-soap-organic-shea-butter-unscented",
+          "real-luxury-body-wash-natural-african-soap-organic-sweet-almond-jasmine"
+        ],
+        "heading": "",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_UCWp4R",
+    "featured_products_fCiAbV",
+    "featured_products_kcWVwp"
+  ]
+}

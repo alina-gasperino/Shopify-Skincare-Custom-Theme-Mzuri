@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": true,
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "1632438205dcd4c52e": {
+      "type": "image-with-text",
+      "settings": {
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "overlap": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MZURI4161.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-overlay": true
+      }
+    },
+    "featured_products_fc4fL4": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "slideshow",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "mzuri-e-gift-card"
+        ],
+        "heading": "E GIFT CARDS",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "featured_product_8bTWxY": {
+      "type": "featured-product",
+      "blocks": {
+        "overline_Fp8VEJ": {
+          "type": "overline",
+          "settings": {}
+        },
+        "heading_BeKk8R": {
+          "type": "heading",
+          "settings": {}
+        },
+        "vendor_4hec79": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price_DpY99b": {
+          "type": "price",
+          "settings": {}
+        },
+        "options_LBpLzj": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "buy_buttons_UCnkRa": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "overline_Fp8VEJ",
+        "heading_BeKk8R",
+        "vendor_4hec79",
+        "price_DpY99b",
+        "options_LBpLzj",
+        "buy_buttons_UCnkRa"
+      ],
+      "settings": {
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "accent-1",
+        "text-column-width": 30,
+        "thumbnail-width": 82,
+        "media-gap": 8,
+        "text-alignment": "center",
+        "featured_product": "mzuri-e-gift-card",
+        "loop-enabled": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1632438205dcd4c52e",
+    "featured_products_fc4fL4",
+    "featured_product_8bTWxY"
+  ]
+}

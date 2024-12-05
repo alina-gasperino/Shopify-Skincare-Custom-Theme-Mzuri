@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "map_AaMfCx": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "theme": "grayscale",
+        "heading": "Mzuri Store",
+        "address": "<p>Voorhees Township,<br\/>New Jersey<br\/>NJ 08043, USA<\/p>",
+        "hours": "<p>Monday - Friday<br\/>9 am - 6 pm<br\/><\/p>",
+        "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
+        "api-key": "",
+        "map-address": "Voorhees Township,New JerseyNJ 08043, USA"
+      }
+    },
+    "image_with_text_V7GJ8K": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "banner-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "bottom",
+        "text-width": "small",
+        "text-style": "text-shadow",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 64,
+        "overlay-style": "none",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/12.jpg",
+        "overline": "WE LOOK FORWARD TO HEARING FROM YOU!",
+        "title": "",
+        "description": "<p>We appreciate your feedback and inquiries! Please feel free to submit any questions, concerns, or inquiries you may have below. Alternatively,   you can reach us directly at <a>admin@mzuricosmetics.com<\/a> or by calling    1-833-33-MZURI. <\/p>",
+        "link-url": "",
+        "link-text": "",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "image_with_text_pg9akE": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "dark",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": true,
+        "heading-type": "featured-heading",
+        "text-position": "left",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "text-shadow",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 64,
+        "overlay-style": "darken",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/11.jpg",
+        "overline": "POWERED BY AFRICA",
+        "title": "Discover the Power of Natural Ingredients",
+        "description": "<p>Nourish Your Skin and Hair with African Elegance and Immerse Yourself in Natural  Luxury<\/p>",
+        "link-url": "shopify:\/\/metaobjects\/our_bundles\/our-bundles-dieuccm5",
+        "link-text": "shop now",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "show-title": false,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "4",
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    },
+    "16324378141979f11c": {
+      "type": "featured-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "heading-type": "section-heading",
+        "container-width": "4",
+        "overline": "",
+        "heading": "",
+        "description": "<h1><strong>Get in Touch With Mzuri Today<\/strong><\/h1>",
+        "link-url": "\/",
+        "link-text": ""
+      }
+    },
+    "1632180071f18cee62": {
+      "type": "contact",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": "2",
+        "heading": "",
+        "store-address": "",
+        "store-hours": "",
+        "show-social-sharing": false
+      }
+    },
+    "featured_text_VnJHz6": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "heading-type": "section-heading",
+        "container-width": "4",
+        "overline": "",
+        "heading": "",
+        "description": "<p>It starts with you being beautiful.<br\/>MZURI Cosmetics was founded with the intention of bringing out the beauty of your skin. We believe that skin and haircare regimen should be simple and work in harmony with what nature provides. You shouldn’t have to choose between health and beauty.<br\/>MZURI’s mission is to create products that are beneficial to the body as well as the earth. We are dedicated to helping preserve the beauty of the natural world, use sustainably sourced products, environmentally responsible and DO NOT test on animals. Everything we do is designed to make you feel beautiful no matter your age, gender and ethnicity.<br\/>Our mission is to help make your skin beautiful with fresh and organic products that talks to you and harness your inner being.<br\/>Mzuri Cosmetics is headquartered in Voorhees, NJ, USA, and to date, we have shipped to thousands of customers.<\/p>",
+        "link-url": "\/",
+        "link-text": ""
+      }
+    },
+    "newsletter_ycYVMK": {
+      "type": "newsletter",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "overline": "Overline text",
+        "heading": "Subscribe to our newsletter",
+        "description": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+      }
+    }
+  },
+  "order": [
+    "map_AaMfCx",
+    "image_with_text_V7GJ8K",
+    "image_with_text_pg9akE",
+    "main",
+    "16324378141979f11c",
+    "1632180071f18cee62",
+    "featured_text_VnJHz6",
+    "newsletter_ycYVMK"
+  ]
+}

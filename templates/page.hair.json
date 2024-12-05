@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": true,
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "image_with_text_cDgUtg": {
+      "type": "image-with-text",
+      "settings": {
+        "spacing-above": false,
+        "spacing-below": false,
+        "background-color": "none",
+        "overlap": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/MZURI4161.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": "",
+        "mobile-overlay": true
+      }
+    },
+    "featured_products_rPRL4w": {
+      "type": "featured-products",
+      "settings": {
+        "spacing-above": true,
+        "spacing-below": false,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "revitalizing-conditioner-shea-butter-base-vanilla-cedarwood",
+          "conditioner-shea-butter-base-honey-suckle",
+          "shampoo-2-natural-african-soap-shea-butter",
+          "revitalizing-shampoo-natural-african-soap-honey-suckle"
+        ],
+        "heading": "Hair Products",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_cDgUtg",
+    "featured_products_rPRL4w"
+  ]
+}

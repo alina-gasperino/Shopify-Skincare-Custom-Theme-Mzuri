@@ -1,0 +1,83 @@
+ /* Styling of Announcement bar text by SST */
+
+     .announcement--root {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .empty-space {
+      flex: 1; /* Each div takes equal space */
+    }
+    
+    .announcement--text-container {
+      display: flex;
+      align-items: center;
+      flex: 2; /* Each div takes equal space */
+    }
+    
+    .announcement--text {
+      text-align: center;
+      margin-right: 10px; /* Adjust as needed */
+    }
+    
+    .announcement--number {
+      text-align: right; /* Align number to the right */
+      padding-right:16px;
+    }
+    .fa-solid{
+      padding:0 8px;
+    }
+
+@media screen and (max-width: 576px){
+
+    .announcement--text-container {
+        flex-direction:column;
+      }
+    .announcement--number {
+      text-align: center; /* Align number to the right */
+      padding:0px;
+    }
+}
+        
+
+/* Slideshow Button Styles  */
+/* .stacked-text--wrapper .stacked-text--button {
+    background-color: hwb(21.74deg 13.33% 59.61%) !important;
+    border: none !important;
+    color: white !important;
+} */
+
+.stacked-text--button {
+
+   
+  font-size: 40px;
+  padding: 30px;
+  margin-top: 20px;
+  background: #ff7600 !important;
+  color: white !important;
+  border: none;
+  border: none !important;
+
+}
+/*.featured-collection--show-more a{
+  color: white !important;
+  background: orange !important; 
+  border: 2px solid orange !important;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}*/
+
+.image-with-text--root {
+    padding-top: 0 !important;
+}
+
+
+/* Removing Padding From Homepage Slideshow */
+.slideshow--root {
+    padding: 0!important;
+}

@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show-featured": false,
+        "heading-position": "above",
+        "show-date": false,
+        "show-author": false
+      }
+    },
+    "scrolling_content_AjyHwx": {
+      "type": "scrolling-content",
+      "blocks": {
+        "image_jwredj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MZURI4145_2df2872f-c390-4bc5-97dc-2eeb0135f4ac.jpg",
+            "image-height": 100,
+            "link": "shopify:\/\/products\/luxury-body-butter-shea-and-avocado",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "text_tMA8PR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Your scrolling text here",
+            "link": "",
+            "hide-on-mobile": false,
+            "hide-on-desktop": false
+          }
+        },
+        "image_4idfVQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shea-mobile-image.jpg",
+            "image-height": 100,
+            "link": "shopify:\/\/collections",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "text_ypYpQp": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Your scrolling text here",
+            "link": "shopify:\/\/collections",
+            "hide-on-mobile": false,
+            "hide-on-desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jwredj",
+        "text_tMA8PR",
+        "image_4idfVQ",
+        "text_ypYpQp"
+      ],
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "parallax-enabled": false,
+        "overlay-style": "darken-bottom",
+        "light-text": false,
+        "text-size": "paragraph",
+        "animation-direction": "left",
+        "animation-speed": 4,
+        "pause-on-hover": true
+      }
+    },
+    "featured_products_AXnNLh": {
+      "type": "featured-products",
+      "settings": {
+        "top-border": false,
+        "heading-link": "",
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "slideshow",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "luxury-body-butter-shea-and-avocado",
+          "body-lotion-moisturizer-lavender",
+          "copy-of-gift-value-pack-body-butter-trio-jcb-is-va-jasmine-3-items",
+          "revitalizing-shampoo-natural-african-soap-honey-suckle"
+        ],
+        "heading": "Explore Our Products",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "navigation": {
+      "type": "article-navigation",
+      "settings": {
+        "show-tags": true,
+        "facebook-enabled": true,
+        "x-enabled": true,
+        "pinterest-enabled": true,
+        "email-enabled": true,
+        "url-enabled": true
+      }
+    },
+    "recents": {
+      "type": "article-recents",
+      "disabled": true,
+      "settings": {}
+    },
+    "comments": {
+      "type": "article-comments",
+      "settings": {
+        "show-comments": true,
+        "disqus-enabled": false,
+        "disqus-shortname": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_content_AjyHwx",
+    "featured_products_AXnNLh",
+    "navigation",
+    "recents",
+    "comments"
+  ]
+}

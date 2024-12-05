@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "featured_text_cnctJD": {
+      "type": "featured-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "heading-type": "section-heading",
+        "container-width": "4",
+        "overline": "",
+        "heading": "Mzuri Value Collection",
+        "description": "",
+        "link-url": "\/",
+        "link-text": ""
+      }
+    },
+    "image_with_text_GwhxnB": {
+      "type": "image-with-text",
+      "settings": {
+        "top-border": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "container-width": "6",
+        "light-text": true,
+        "overlap": false,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": "medium",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "overlay-style": "darken-top",
+        "parallax-enabled": false,
+        "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "shopify:\/\/products\/copy-of-gift-value-pack-bodywash-shampoo-conditioner-h-s-body-butter-s-av-lotion-sw-a-5-items",
+        "link-text": "SHOP NOW",
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-alignment": "center"
+      }
+    },
+    "featured_products_fN7Ke9": {
+      "type": "featured-products",
+      "custom_css": [
+        ".halo-collection-content .productListing .card-media img {height: 300px;}",
+        ".halo-collection-content .productListing .card-media{padding-bottom: 100% !important;}"
+      ],
+      "settings": {
+        "top-border": false,
+        "heading-link": "",
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "copy-of-gift-value-pack-body-butter-trio-jcb-is-va-jasmine-3-items",
+          "copy-of-gift-value-pack-moisturizer-body-wash-2items",
+          "copy-of-gift-value-pack-bodywash-shampoo-conditioner-h-s-body-butter-s-av-lotion-sw-a-5-items",
+          "gift-value-pack-shampoo-conditioner-set-h-s-2-items",
+          "gift-value-pack-shampoo-sb-conditioner-sb-cwood-bodywash-c-wcc-lotion-4-items",
+          "value-pack-body-wash-i-body-butter-i-body-lotion"
+        ],
+        "heading": "",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    }
+  },
+  "order": [
+    "featured_text_cnctJD",
+    "image_with_text_GwhxnB",
+    "featured_products_fN7Ke9"
+  ]
+}

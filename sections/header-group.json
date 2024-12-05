@@ -1,0 +1,32 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "settings": {
+        "home-page-only": false,
+        "background-color": "dark",
+        "light-text": false,
+        "text": "FREE USA SHIPPING ON ORDERS $100                                                                     +",
+        "number": "1-833-336-9874 Mon-Fri 9am-5pm Eastern",
+        "link": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "logo": "shopify:\/\/shop_images\/mzuriweb.png",
+        "logo-height": 45,
+        "mobile-logo-height": 40,
+        "menu": "main-menu"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

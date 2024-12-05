@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show-featured": true,
+        "heading-position": "above",
+        "show-date": true,
+        "show-author": true
+      }
+    },
+    "scrolling_content_ANH34P": {
+      "type": "scrolling-content",
+      "blocks": {
+        "image_EyApMr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MZURI4145_2df2872f-c390-4bc5-97dc-2eeb0135f4ac.jpg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        },
+        "image_Ke96fr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shea-image-mobile.jpg",
+            "image-height": 100,
+            "link": "",
+            "hide-on-desktop": false,
+            "mobile-image-height": 70,
+            "hide-on-mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "image_EyApMr",
+        "image_Ke96fr"
+      ],
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "parallax-enabled": false,
+        "overlay-style": "darken-bottom",
+        "light-text": false,
+        "text-size": "section-heading",
+        "animation-direction": "left",
+        "animation-speed": 4,
+        "pause-on-hover": true
+      }
+    },
+    "navigation": {
+      "type": "article-navigation",
+      "settings": {
+        "show-tags": true,
+        "facebook-enabled": true,
+        "x-enabled": true,
+        "pinterest-enabled": true,
+        "email-enabled": true,
+        "url-enabled": false
+      }
+    },
+    "recents": {
+      "type": "article-recents",
+      "disabled": true,
+      "settings": {}
+    },
+    "comments": {
+      "type": "article-comments",
+      "disabled": true,
+      "settings": {
+        "show-comments": true,
+        "disqus-enabled": false,
+        "disqus-shortname": ""
+      }
+    },
+    "featured_products_7mHUiG": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "top-border": false,
+        "heading-link": "",
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "display-type": "slideshow",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "product-list": [
+          "luxury-body-butter-shea-and-avocado",
+          "body-lotion-moisturizer-lavender",
+          "copy-of-gift-value-pack-body-butter-trio-jcb-is-va-jasmine-3-items",
+          "revitalizing-shampoo-natural-african-soap-honey-suckle"
+        ],
+        "heading": "Featured products",
+        "heading-alignment": "center",
+        "link-url": "",
+        "link-text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_content_ANH34P",
+    "navigation",
+    "recents",
+    "comments",
+    "featured_products_7mHUiG"
+  ]
+}

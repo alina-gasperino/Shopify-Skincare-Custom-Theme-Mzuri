@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {}
+    },
+    "recent_products_WNBNtB": {
+      "type": "recent-products",
+      "settings": {
+        "spacing-above": false,
+        "spacing-below": true,
+        "background-color": "none",
+        "light-text": false,
+        "heading-alignment": "center",
+        "heading": "WE RECOMMEND"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recent_products_WNBNtB"
+  ]
+}

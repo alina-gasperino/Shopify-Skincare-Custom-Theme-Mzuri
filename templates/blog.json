@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show-title": true,
+        "show-date": false,
+        "show-tag-filter": true,
+        "show-author": false,
+        "show-excerpt": false,
+        "columns": 3,
+        "show-rss": false,
+        "show-featured": false,
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "tag": "featured",
+        "light-text": false,
+        "text-style": "none",
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

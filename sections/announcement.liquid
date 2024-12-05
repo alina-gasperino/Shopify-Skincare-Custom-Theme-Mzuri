@@ -1,0 +1,183 @@
+{%- liquid
+  assign bg_color = section.settings.background-color
+  assign icon = section.settings.icon
+  assign light_text = section.settings.light-text
+  assign link = section.settings.link
+  assign text = section.settings.text
+
+  assign enabled = true
+  if section.settings.home-page-only and template != 'index'
+    assign enabled = false
+  endif
+
+  capture link_settings
+    echo settings.color--alternative
+    echo settings.color--accent-1
+    echo settings.color--accent-2
+  endcapture
+-%}
+
+{%- if enabled -%}
+  <div
+    class="announcement--root"
+    data-section-id="{{ section.id }}"
+    data-section-type="announcement"
+    data-background-color="{{ bg_color }}"
+    data-light-text="{{ light_text }}"
+    data-spacing="none"
+  >
+    {%- if link != blank -%}
+      <a class="announcement--link" href="{{ link }}">
+    {%- endif -%}
+<style>
+  
+  /* Styling of Announcement bar text by SST */
+  
+       .announcement--root {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      
+      .empty-space {
+        flex: 1; /* Each div takes equal space */
+      }
+      
+      .announcement--text-container {
+        display: flex;
+        align-items: center;
+        flex: 2; /* Each div takes equal space */
+      }
+      
+      .announcement--text {
+        text-align: center;
+        margin-right: 10px; /* Adjust as needed */
+      }
+      
+      .announcement--number {
+        text-align: right; /* Align number to the right */
+        padding-right:16px;
+      }
+      .fa-solid{
+        padding:0 8px;
+      }
+
+  @media screen and (max-width: 576px){
+
+      .announcement--text-container {
+          flex-direction:column;
+        }
+      .announcement--number {
+        text-align: center; /* Align number to the right */
+        padding:0px;
+      }
+  }
+        
+</style>
+    <div class=" cstm-col">
+      {%- if icon -%}
+        <div class="announcement--icon">
+          {{-
+            icon |
+              image_url: width: 50, height: 50 |
+              image_tag: alt: icon.alt
+          -}}
+        </div>
+      {%- endif -%}
+      
+   <!-- Custom Coding By SST for Announcement Bar -->
+   
+      
+      <!-- Empty space on the left -->
+      <div class="empty-space"></div> 
+      
+      <div class="announcement--text-container">
+        {%- if text != blank -%}
+          <div class="announcement--text cstm-col-6" data-item="accent-text">
+            {{- text | escape -}}
+          </div>
+           {%- endif -%}
+          <div class="announcement--number cstm-col-6" data-item="accent-text">
+            <i class="fa-solid fa-phone" style="color: #922936;"></i><a href= "tel:{{section.settings.number}}">{{ section.settings.number }}</a>
+          </div>
+      </div>
+    </div>
+
+    {%- if link != blank -%}
+      </a>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "home-page-only",
+      "label": "Home page only",
+      "default": true
+    },
+    {
+      "id": "background-color",
+      "label": "Background color",
+      "type": "select",
+      "options": [
+        {
+          "label": "Transparent",
+          "value": "none"
+        },
+        {
+          "label": "Light",
+          "value": "light"
+        },
+        {
+          "label": "Dark",
+          "value": "dark"
+        },
+        {
+          "label": "Accent 1",
+          "value": "accent-1"
+        },
+        {
+          "label": "Accent 2",
+          "value": "accent-2"
+        }
+      ],
+      "default": "accent-1"
+    },
+    {
+      "id": "light-text",
+      "label": "Use light text color",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon image",
+      "info": "50 x 50px recommended"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Announcement for sales, promos, shipping info & more — Click and Collect available"
+    }
+    ,
+    {
+      "type": "text",
+      "id": "number",
+      "label": "Enter your Number",
+      "default": "Enter your number"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,281 @@
+{%- liquid
+  comment
+    Translations
+  endcomment
+
+  assign written_by_t = 'blog.article.written_by' | t
+
+  comment
+    Variables
+  endcomment
+
+  assign heading_position = section.settings.heading-position
+  assign show_date = section.settings.show-date
+  assign show_author = section.settings.show-author
+  assign show_featured = section.settings.show-featured
+
+  assign sizes = '(max-width: 767px) 100vw, 100vw'
+  if heading_position == 'left'
+    assign sizes = '(max-width: 767px) 100vw, 50vw'
+  endif
+
+  render 'section-assets', name: 'article', type: 'style'
+-%}
+
+{% comment %} View {% endcomment %}
+<article
+  class="article--root"
+  data-section-id="{{ section.id }}"
+  data-heading-position="{{ heading_position }}"
+  data-show-author="{{ show_author }}"
+  data-show-date="{{ show_date }}"
+  data-show-featured="{{ show_featured }}"
+>
+  <div class="article--header--info">
+    <h1 class="article--title" data-item="section-heading">
+      {{- article.title -}}
+    </h1>
+  </div>
+
+  <div class="article_body">
+    <div class="article--wrapper">
+      <div class="article--heading">
+        {%- if show_featured and article.image -%}
+          <div class="article--image" style="--aspect-ratio:{{ article.image.aspect_ratio }};">
+            {{-
+              article.image |
+              image_url: width: article.image.width |
+              image_tag:
+                widths: "300, 500, 767, 1000, 1200, 1500, 1800, 2400, 3000",
+                sizes: sizes
+            -}}
+          </div>
+        {%- endif -%}
+
+        {%- if show_date or show_author -%}
+          <div class="article--info" data-position="by-self">
+            {%- if show_date -%}
+              <div class="article--timesince" data-item='light-accent-text'>
+                {%-
+                  render "utils",
+                  utility: "timesince",
+                  created_at: article.published_at
+                -%}
+              </div>
+            {%- endif -%}
+
+            {%- if show_date and show_author -%}
+              <span class="article--dot" data-mq="medium-large">&CenterDot;</span>
+            {%- endif -%}
+
+            {%- if show_author -%}
+              <div class="article--author" data-item="caption">
+                {{- written_by_t }} {{ article.author -}}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+      {%- if show_date or show_author -%}
+        <div class="article--info" data-position="grouped-with-title">
+          {%- if show_date -%}
+            <div class="article--timesince" data-item="light-accent-text">
+              {%-
+                render "utils",
+                utility: "timesince",
+                created_at: article.published_at
+              -%}
+            </div>
+          {%- endif -%}
+
+          {%- if show_date and show_author -%}
+            <span class="article--dot" data-mq="medium-large">&CenterDot;</span>
+          {%- endif -%}
+
+          {%- if show_author -%}
+            <div class="article--author" data-item="caption">
+              {{- written_by_t }} {{ article.author -}}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+      <div class="article_share"></div>
+      {%- if article.content.size > 0 -%}
+        <div class="article--content" data-item="rte-content">
+          {{- article.content -}}
+        </div>
+      {%- endif -%}
+
+      <hr>
+      <div class="article_tags">
+        {%- capture render_tags -%}
+          {%- for tag in article.tags -%}
+            {%- liquid
+              assign temp_tag = tag | downcase | escape
+              assign skip = false
+        
+              for hidden_tag in hidden_tags
+                assign formatted_hidden_tag = hidden_tag | downcase | escape | strip
+                if temp_tag == formatted_hidden_tag
+                  assign skip = true
+                  break
+                endif
+              endfor
+        
+              if skip
+                continue
+              endif
+        
+              assign number_of_tags = number_of_tags | plus: 1
+            -%}
+        
+            <li class="article--tag">
+              <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+                {{- tag | capitalize -}}
+              </a>
+            </li>
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        <ul class="article--tags" data-item="paragraph">
+          {{- render_tags -}}
+        </ul>
+      </div>
+
+      <div class="article-comments--root" data-section-id="{{ section.id }}" data-spacing-above="false">
+        <div class="article-comments-wrapper">
+            <h2 class="article-comments--heading" data-item='section-heading'>Comments</h2>
+            {%- render 'comments' -%}
+        </div>
+      </div>
+    </div>
+    <div class="article--sidebar">
+      <div class="search_posts">
+        <h4>Search</h4>
+        {%- liquid
+          assign cancel_t = 'general.search.cancel' | t
+          assign clear_t = 'general.search.clear' | t
+          assign placeholder_t = 'general.search.placeholder' | t
+
+          render 'section-assets', name: 'predictive-search'
+        -%}
+
+        <predictive-search-root class="search--root" data-loading="false">
+          <form action="{{ routes.search_url }}" method="get" role="search">
+            <div class="search--bar-wrapper">
+              <div class="search--bar">
+                <div class="search--icon">
+                  {%- render 'icons', icon: 'search' -%}
+                  {%- render 'icons', icon: 'spinner' -%}
+                </div>
+
+                <label for="search-input" data-item="hidden-text">
+                  {{- placeholder_t -}}
+                </label>
+                <input
+                  id="search-input"
+                  class="search--textbox"
+                  type="search"
+                  name="q"
+                  value=""
+                  placeholder="{{ placeholder_t }}"
+                  data-item="paragraph"
+                  role="combobox"
+                  aria-owns="predictive-search-results-list"
+                  aria-controls="predictive-search-results-list"
+                  aria-autocomplete="list"
+                  autocorrect="off"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                >
+
+                <div class="search--clear" tabindex="0" aria-label="{{ clear_t }}" style="display:none;">
+                  {%- render 'icons', icon: 'x-mark' -%}
+                </div>
+              </div>
+
+              <div class="search--cancel" data-item="block-link" tabindex="0" data-drawer-close>
+                <div>{{- cancel_t -}}</div>
+              </div>
+            </div>
+
+            <div
+              class="search--results"
+              id="predictive-search-results-list"
+              {% unless settings.transitions--text %}
+                data-transition-container="search"
+                data-transition-type="fade-in"
+                data-transition-cascade="horizontal"
+                data-transition-cascade-interval="200"
+              {% endunless %}
+            >
+              {%- render 'predictive-search' -%}
+            </div>
+          </form>
+        </predictive-search-root>
+      </div>
+      <div class="recent_posts">
+        <h4>Recent Posts</h4>
+        <div>
+          <ul>
+            {% for article in blog.articles %}
+              <li><a href="{{article.url}}">{{article.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="get_mag">
+        <img src="{{ 'cover.png' | asset_url }}" />
+        <button><a href="https://www.sheenmagazine.com/digital/">Get the Mag</a></button>
+      </div>
+      <hr>
+    </div>
+  </div>
+</article>
+
+{% schema %}
+{
+  "name": "Article",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Featured image"
+    },
+    {
+      "id": "show-featured",
+      "label": "Show",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "heading-position",
+      "label": "Position heading",
+      "type": "select",
+      "options": [
+        { "value": "above", "label": "Above" },
+        { "value": "left", "label": "Left" },
+        { "value": "below", "label": "Below" }
+      ],
+      "default": "below"
+    },
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "id": "show-date",
+      "label": "Show article date",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "show-author",
+      "label": "Show author",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
+{% endschema %}
